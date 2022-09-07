@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "heroku-prebuild": "npm install --dev"
+    "heroku-prebuild": "npm install --dev",
+    "build": "webpack --mode production",
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
